@@ -1,16 +1,22 @@
 main:
-  - name: "Services"
-    url: "/services/"
-    weight: 2
-  - name: "Team"
-    url: "/team/"
-    weight: 3
+  - name: "Home"
+    url: "/"
+    weight: 1
   - name: "About"
     url: "/about/"
+    weight: 2
+  - name: "Services"
+    url: "/services/"
+    weight: 3
+  - name: "Engagement Models"
+    url: "/engagement-models/"
     weight: 4
+  - name: "Tech Stack"
+    url: "/tech-stack/"
+    weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 5
+    weight: 6
 
 footer:
   - name: "Home"

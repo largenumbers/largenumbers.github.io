@@ -1,6 +1,6 @@
 baseurl: '/'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Large Numbers'
 
 google_analytics_id: ""
 
@@ -10,20 +10,20 @@ homepage:
 logo:
   mobile: "images/logo/logo-mobile.svg"
   desktop: "images/logo/logo.svg"
-  desktop_height: "36px"
+  desktop_height: "56px"
 
 footer:
-  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+  copyright_text: '<a class="largenumbers" href="https://www.large-numbers.com">Large Numbers</a> (Pvt) Ltd. &copy <script>document.write(new Date().getFullYear());</script>'
 
 seo:
-  meta_og_title: "Jekyll Serif Theme"
+  meta_og_title: "Large Numbers"
   meta_og_type: "website"
-  meta_og_url: "https://jekyll-serif.netlify.app"
+  meta_og_url: "https://www.large-numbers.com"
   meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
-  meta_og_description: "Jekyll Serif is a modern business theme for Hugo. It contains content types for the archetypical business website. The theme is fully responsive, blazing fast and artfully illustrated."
+  meta_og_description: "Large Numbers (Private) Limited helps clients build and manage data applications at scale."
   meta_twitter_card: "summary"
-  meta_twitter_site: "@zerostaticio"
-  meta_twitter_creator: "@zerostaticio"
+  meta_twitter_site: "@#"
+  meta_twitter_creator: "@#"
 
 collections:
   services:
