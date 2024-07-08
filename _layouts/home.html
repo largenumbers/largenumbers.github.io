@@ -24,15 +24,18 @@ bodyClass: page-home
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
+    <div class="row justify-content-center mb-3">
+      The engagement models that Large Numbers offers include, but are not limited to, the folowing.
+    </div>
     <div class="row justify-content-start">
-      {% for service in site.services %}
+      {% for model in site.data.engagement-models %}
       <div class="col-12 col-md-4 mb-1">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+              <a style="color:#E5261F;">{{ model.title }}</a>
             </h2>
-            <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+            <p>{{ model.description }}</p>
           </div>
         </div>
       </div>
@@ -40,7 +43,7 @@ bodyClass: page-home
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+        <a class="button button-primary" href="{{ "engagement-models" | relative_url }}">Read more</a>
       </div>
     </div>
   </div>
@@ -50,7 +53,6 @@ bodyClass: page-home
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
     <div class="row justify-content-center">
-
       {% for feature in site.data.features %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
         <div class="feature">
@@ -63,6 +65,11 @@ bodyClass: page-home
       </div>
       {% endfor %}
 
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <a class="button button-primary" href="{{ "services" | relative_url }}">Read more</a>
+      </div>
     </div>
   </div>
 </div>

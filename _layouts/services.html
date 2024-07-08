@@ -20,18 +20,41 @@ bodyClass: page-services-list
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% assign weighted_services = site.services | sort: "weight" %}
-    {% for service in weighted_services %}
+    <div class="col-12 col-md-12 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a style="color:#E5261F;">Development Projects</a>
+          </h2>
+          <p>We can develop software based on functional and technical specifications as provided by our customer or help the customer to write these in close co-operation. We work with solid architecture and designs that are well understood and agreed upon by all parties involved.</p>
+
+          <p>We see testing as an integral part of the development. We will always perform component and integration testing on our end. Depending on the project and the preferences of the customer we can also perform system testing and facilitate the customer's ultimate acceptance testing.</p>
+            
+          <p>Projects are always delivered with extensive documentation, source code, test scripts, test reports and installation manuals.</p>
+        </div>
+      </div>
+    </div>
+    
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            <a style="color:#E5261F;">Application Maintenance</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>On all software we develop for customers we provide maintenance services through an appropriate SLA. These services concentrate on the aftercare and bug fixing. Next to maintenance services we also provide functional and technical support services. These services are always aligned with the customer's existing maintenance and support processes.</p>
         </div>
       </div>
     </div>
-    {% endfor %}
+
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a style="color:#E5261F;">Migration Projects</a>
+          </h2>
+          <p>We also offer migration services, to re-engineer legacy systems of customers to contemporary technologies or port over old code to a newer version or more scalable and performing technology.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
