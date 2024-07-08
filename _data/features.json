@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
-    "image": "images/features/noun_branding_1885335.svg"
-  },
-  {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "Development Projects",
+    "description": "We can develop software based on functional and technical specifications as provided by our customer or help the customer to write these in close co-operation.",
     "image": "images/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Application Maintenance",
+    "description": "On all software we develop for customers we provide maintenance services through an appropriate SLA. These services concentrate on the aftercare and bug fixing.",
     "image": "images/features/noun_3d modeling_1885342.svg"
+  },
+  {
+    "title": "Migration Projects",
+    "description": "We also offer migration services, to re-engineer legacy systems of customers to contemporary technologies or port over old code to a newer version or more scalable and performing technology.",
+    "image": "images/features/noun_branding_1885335.svg"
   }
 ]

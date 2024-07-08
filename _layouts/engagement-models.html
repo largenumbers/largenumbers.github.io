@@ -1,0 +1,56 @@
+---
+layout: default
+bodyClass: page-services-list
+---
+
+<div class="intro">
+  <div class="container">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+        {{ content }}
+      </div>
+      {% if page.intro_image %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+        <img alt={{ page.title }} class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="container pt-6 pb-6">
+  <div class="row">
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a style="color:#E5261F;">Project Based</a>
+          </h2>
+          <p>This is the most commonly used model. Based on the customer's requirements Large Numbers is invited to estimate the capacity and timelines it would need to deliver a certain project and/or engage in a time-material model on agile principles. We will deliver a clear proposal and when the customer agrees, the project is started. Depending on the preference of the client the bid can be based on a fixed price, time-material or a combination. Single maintenance contracts are treated in a similar way.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-12 col-md-6 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a style="color:#E5261F;">Partnership</a>
+          </h2>
+          <p>When multiple projects are frequently executed for a particular customer it may be beneficial for both parties to establish a partnership. A partnership is always a tailor made agreement that aims at commercial, operational and financial efficiency for both the customer and Large Numbers. A framework agreement can be signed to prevent too much overhead for each individual project and a maintenance agreement can be made part of the partnership as well.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-12 mb-3">
+      <div class="service service-summary">
+        <div class="service-content">
+          <h2 class="service-title">
+            <a style="color:#E5261F;">Extended Development Centre</a>
+          </h2>
+          <p>The extended development centre is a concept of very close co-operation where we host and manage the customer's offshore software development centre. The employees working for the customer will be on Large Numbers's payroll, but are fully dedicated to the customer's business. Of course we manage all other facilities as well. You only have to manage the prioritization process and decide what activities the resource capacity has to be spent on. For customers this is an optimal way to guarantee availability and continuity of resources without having to invest in a proprietary development centre. This model can be very attractive for any companies who wish to get (a part of) their development work done by a dedicated development center, but who do not (yet) have the intention to build up their own.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
