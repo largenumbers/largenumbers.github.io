@@ -5,7 +5,7 @@ layout: page
 bodyClass: page-about
 ---
 
-Large Numbers is an agile and dynamic software house based in Amsterdam, Netherlands and Lahore, Pakistan. We work for an international customer base and we also operate as an appreciated subcontractor in the IT industry.
+Large Numbers is an agile and dynamic software house based in Islamabad, Pakistan. We work for an international customer base and we also operate as an appreciated subcontractor in the IT industry.
 
 We are specialized in the development and maintenance of enterprise business solutions, including internet and intranet applications and complex system interfaces. We also offer migration services, to re-engineer legacy systems of customers to contemporary technologies.
 
