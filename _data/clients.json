@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Allianz",
+    "image": "images/clients/allianz.svg"
+  },
+  {
+    "name": "Stihl",
+    "image": "images/clients/stihl.svg"
+  },
+  {
+    "name": "Auto 1 Group",
+    "image": "images/clients/auto1.svg"
+  },
+  {
+    "name": "OMMAX",
+    "image": "images/clients/ommax.svg"
+  },
+  {
+    "name": "PwC",
+    "image": "images/clients/pwc.svg"
+  },
+  {
+    "name": "CWS",
+    "image": "images/clients/cws.svg"
+  },
+  {
+    "name": "Infineon",
+    "image": "images/clients/infineon.svg"
+  },
+  {
+    "name": "BMW",
+    "image": "images/clients/bmw.svg"
+  },
+  {
+    "name": "HPE",
+    "image": "images/clients/hpe.svg"
+  },
+  {
+    "name": "Redmarker Systems",
+    "image": "images/clients/rms.svg"
+  }
+]
