@@ -1,5 +1,5 @@
 ---
-title: Engagement Models
+title: Engagement models
 layout: engagement-models
 intro_image: "images/illustrations/cycle.svg"
 intro_image_absolute: true

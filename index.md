@@ -2,9 +2,9 @@
 title: Large Numbers
 layout: home
 description: Large Numbers Pvt. Ltd. is your agile partner in shipping analytics, big data and artificial intelligence solutions.
-intro_image: "images/illustrations/pointing.svg"
+intro_image: "images/illustrations/home-graphic.svg"
 intro_image_absolute: true
-intro_image_hide_on_mobile: true
+intro_image_hide_on_mobile: false
 ---
 
 # Data applications at scale
