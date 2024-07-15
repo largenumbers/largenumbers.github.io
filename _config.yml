@@ -1,4 +1,4 @@
-baseurl: '/'
+baseurl: 'https://www.large-numbers.com'
 permalink: pretty
 title: 'Large Numbers'
 
@@ -13,7 +13,7 @@ logo:
   desktop_height: "56px"
 
 footer:
-  copyright_text: '<a class="largenumbers" href="https://www.large-numbers.com">Large Numbers</a> (Pvt) Ltd. &copy <script>document.write(new Date().getFullYear());</script>'
+  copyright_text: '<a class="largenumbers" href="{{ site.baseurl }}">Large Numbers</a> (Pvt) Ltd. &copy <script>document.write(new Date().getFullYear());</script>'
 
 seo:
   meta_og_title: "Large Numbers"
