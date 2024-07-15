@@ -4,7 +4,7 @@ layout: page
 bodyClass: page-tech-stack
 intro_image: "images/illustrations/tech-stack.svg"
 intro_image_absolute: false
-intro_image_hide_on_mobile: false
+intro_image_hide_on_mobile: true
 ---
 
 The engineers at Large Numbers are equipped with multiple skills and with the latest tools & technologies. The skills vary from project planning, architecture, requirements analysis, functional and technical design, development, deployment, testing and maintenance.
